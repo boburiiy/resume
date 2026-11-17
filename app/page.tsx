@@ -48,7 +48,7 @@ export default function Page() {
         <a className="wordmark" href="#home" aria-label="Boburbek Qadamov, home"><span className="wordmark-mark">b<span>.</span></span><span>BOBURBEK QADAMOV</span></a>
         <nav className="top-nav" aria-label="Main navigation">
           <a href="#about">About</a><a href="#skills">Stack</a><a href="#work">Work</a>
-          <a className="nav-contact" href="mailto:hello@boburbek.dev">Get in touch <ArrowUpRight aria-hidden="true" /></a>
+          <a className="nav-contact" href="mailto:boburbekk.qadamov@gmail.com">Get in touch <ArrowUpRight aria-hidden="true" /></a>
         </nav>
       </header>
 
@@ -59,7 +59,7 @@ export default function Page() {
           <p className="hero-role">Software Engineer <span>—</span> Backend &amp; Infrastructure</p>
           <p className="hero-summary">I build backend systems, work close to the Linux layer, and make deployments less of a guessing game. Mostly Python and Go; occasionally firmware, just to see how low things go.</p>
           <div className="hero-actions">
-            <a className="button-primary" href="mailto:hello@boburbek.dev">Say hello <ArrowUpRight aria-hidden="true" /></a>
+            <a className="button-primary" href="mailto:boburbekk.qadamov@gmail.com">Say hello <ArrowUpRight aria-hidden="true" /></a>
             <a className="text-link" href="https://github.com/boburiiy" target="_blank" rel="noreferrer"><Code2 aria-hidden="true" /> GitHub <ArrowUpRight aria-hidden="true" /></a>
             <a className="text-link" href="https://linkedin.com/in/boburbek-qadamov" target="_blank" rel="noreferrer"><span className="linkedin-mark" aria-hidden="true">in</span> LinkedIn <ArrowUpRight aria-hidden="true" /></a>
           </div>
@@ -93,7 +93,7 @@ export default function Page() {
         <div className="work-content"><div className="work-heading"><div><h2>Things I&apos;ve<br /><span>worked on.</span></h2><p>A few corners of the stack I enjoy getting my hands into.</p></div><a className="all-projects-link" href="https://github.com/boburiiy?tab=repositories" target="_blank" rel="noreferrer">Browse GitHub <ArrowUpRight aria-hidden="true" /></a></div><div className="project-list">{projects.map((project) => <article className="project-card" key={project.number}><span className="project-number">{project.number}</span><div className="project-main"><div className="project-meta"><span>{project.type}</span><Code2 aria-hidden="true" /></div><h3>{project.title}</h3><p>{project.description}</p><div className="project-tags">{project.stack.map((item) => <span key={item}>{item}</span>)}</div></div><a className="project-link" href="https://github.com/boburiiy?tab=repositories" target="_blank" rel="noreferrer" aria-label={`View ${project.title} on GitHub`}><ArrowUpRight aria-hidden="true" /></a></article>)}</div></div>
       </section>
 
-      <footer className="footer" id="contact"><div className="footer-top"><div><span className="eyebrow">HAVE A PROJECT IN MIND?</span><h2>Let&apos;s make<br /><span>it work.</span></h2></div><a className="footer-email" href="mailto:hello@boburbek.dev"><span>hello@boburbek.dev</span><ArrowUpRight aria-hidden="true" /></a></div><div className="footer-bottom"><a className="wordmark footer-wordmark" href="#home"><span className="wordmark-mark">b<span>.</span></span><span>BOBURBEK QADAMOV</span></a><span className="footer-note"><Server aria-hidden="true" /> Built with care, deployed with confidence.</span><div className="footer-socials"><a href="https://github.com/boburiiy" target="_blank" rel="noreferrer" aria-label="GitHub"><Code2 /></a><a href="https://linkedin.com/in/boburbek-qadamov" target="_blank" rel="noreferrer" aria-label="LinkedIn"><span className="linkedin-mark" aria-hidden="true">in</span></a><a href="mailto:hello@boburbek.dev" aria-label="Email"><Mail /></a></div><span className="copyright">© 2025</span></div></footer>
+      <footer className="footer" id="contact"><div className="footer-top"><div><span className="eyebrow">HAVE A PROJECT IN MIND?</span><h2>Let&apos;s make<br /><span>it work.</span></h2></div><a className="footer-email" href="mailto:boburbekk.qadamov@gmail.com"><span>boburbekk.qadamov@gmail.com</span><ArrowUpRight aria-hidden="true" /></a></div><div className="footer-bottom"><a className="wordmark footer-wordmark" href="#home"><span className="wordmark-mark">b<span>.</span></span><span>BOBURBEK QADAMOV</span></a><span className="footer-note"><Server aria-hidden="true" /> Built with care, deployed with confidence.</span><div className="footer-socials"><a href="https://github.com/boburiiy" target="_blank" rel="noreferrer" aria-label="GitHub"><Code2 /></a><a href="https://linkedin.com/in/boburbek-qadamov" target="_blank" rel="noreferrer" aria-label="LinkedIn"><span className="linkedin-mark" aria-hidden="true">in</span></a><a href="mailto:boburbekk.qadamov@gmail.com" aria-label="Email"><Mail /></a></div><span className="copyright">© 2025</span></div></footer>
     </main>
   )
 }
